@@ -124,7 +124,7 @@ a {
 
 .hero {
     background: white;
-    background-image: url(/assets/background_hero.png);
+    background-image: url('assets/background_hero.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
