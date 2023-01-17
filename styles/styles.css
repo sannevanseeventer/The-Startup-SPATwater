@@ -198,13 +198,13 @@ border-radius: 5px;
 
 }
 
-.about__img img {
+/* .about__img img {
     position: absolute;
     width: 300px;
     top: 33.5em;
     right: -0.5em;
     z-index: -1;
-}
+} */
 
 .about__content {
     padding: 2em 2em;
