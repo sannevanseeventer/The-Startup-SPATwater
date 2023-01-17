@@ -354,13 +354,10 @@ a {
 }
 
 .klimaat__content h3 {
-    color: white;
+    color: var(--darkblue);
     font-size: 1.1em;
     font-weight: 500;
-    padding: 1em;
-    border-radius: 4px;
     margin-bottom: 1em;
-    background-color: #4ecd5d;
 }
 
 .klimaat__content p {
