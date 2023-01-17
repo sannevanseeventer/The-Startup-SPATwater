@@ -145,7 +145,7 @@ border-radius: 5px;
 .hero__container {
     align-items: center;
     max-width: 100vw;
-    height: 50rem;
+    min-height: 50rem;
     text-align: left;
 }
 
