@@ -36,8 +36,18 @@ a {
 
 .nav-link {
     list-style: none;
-    margin: 20px 0;
+    margin: 2rem auto;
     width: 8rem;
+    text-align: center;
+    font-size: 1.3em;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-link span {
+background-color: var(--green);
+color: white;
+padding: 0.4em 1em;
+border-radius: 5px;
 }
 
 .navbar {
@@ -52,7 +62,6 @@ a {
     display: flex;
     flex-direction: column;
 }
-
 
 .logo {
     width: 7em;
@@ -72,12 +81,14 @@ a {
 
 .nav-links {
     height: 0;
-    overflow: hidden;
+    overflow: hidden;  
 }
 
 .nav-open {
     height: 100vh;
+    transition: all 0.5s ease;
 }
+
 
 @media only screen and (min-width: 1024px) {
     .nav-toggle {
@@ -110,6 +121,8 @@ a {
     .nav-link {
         display: inline-block;
         border-bottom: none;
+        margin: 20px 0;
+        font-size: 1em;
     }
 
     .nav-links span {
@@ -180,14 +193,15 @@ a {
 .about__container {
     align-items: center;
     max-width: 100vw;
-    height: 100vh;
+    height: 800px;
     text-align: left;
+
 }
 
 .about__img img {
     position: absolute;
     width: 300px;
-    top: 22.7em;
+    top: 33.5em;
     right: -0.5em;
     z-index: -1;
 }
@@ -207,7 +221,7 @@ a {
 
 .about__content h3 {
     color: var(--darkblue);
-    font-size: 0.8em;
+    font-size: 1em;
     font-weight: 400;
     margin-bottom: 1em;
 }
@@ -341,15 +355,29 @@ a {
 }
 
 .klimaat__content {
-    padding: 2em 2em;
+    padding: 3em 2em;
     position: absolute;
     z-index: 1;
+}
+
+.klimaat__content ul li {
+   font-size: 0.88em;
+    line-height: 2em;
+    color: var(--darkblue);
+    font-weight: 600;
+    list-style-type: none;
+}
+
+span p{
+    border-bottom: 2px var(--green);
+    font-size: 1em;
+    font-weight: 400;
 }
 
 .klimaat__content h2 {
     color: var(--spat);
     font-weight: 600;
-    margin-bottom: 0.5em;
+    margin-bottom: 1em;
     font-size: 1.7em;
 }
 
@@ -362,9 +390,8 @@ a {
 
 .klimaat__content p {
     color: var(--darkblue);
-    font-size: 0.9em;
+    font-size: 0.94em;
     font-weight: 400;
-    margin-bottom: 1em;
 }
 
 .klimaat__button {
