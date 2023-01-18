@@ -25,19 +25,3 @@ function activeProjects(){
 linkProjects.forEach(l=> l.addEventListener('click', activeProjects))
 
 
-let text = document.getElementById('text');
-let bird = document.getElementById('bird');
-let berg2 = document.getElementById('berg2');
-let berg1 = document.getElementById('berg1');
-let house = document.getElementById('house');
-
-
-window.addEventListener ('scroll', () => {
-    let value = window.scrollY;
-
-    text.style.marginTop = value * 2.5 + 'px';
-    berg1.style.left = value * 1.5 + 'px';
-    berg2.style.left = value * -1.5 + 'px';
-    house.style.top = value * 1 + 'px';
-
-});
