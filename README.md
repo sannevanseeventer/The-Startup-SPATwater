@@ -1,5 +1,5 @@
 <h2>Nieuwe website voor SPATwater</h2>
-
+<br>
 <img width="1029" alt="Schermafbeelding 2023-01-25 om 13 13 57" src="https://user-images.githubusercontent.com/112857444/214560755-365fafed-0537-4cd1-a9cf-ff3aadfd4ab1.png">
 
 <h3>Inhoudsopgave</h3>
@@ -10,13 +10,13 @@
 <li><a href="#Checklist"> Checklist</a></li> 
 </ul>
 
-<h3 id="#Opdrachtgever> Opdrachtgever</h3>
+<h3 id="#Opdrachtgever"> Opdrachtgever</h3>
 
-<h3 id="#Designchallenge> Design challenge</h3>
+<h3 id="#Designchallenge"> Design challenge</h3>
         
-<h3 id="#Gebruik>Gebruik website</h3>
+<h3 id="#Gebruik">Gebruik website</h3>
         
-<h3 id="#Checklist>Checklist</h3>
+<h3 id="#Checklist">Checklist</h3>
         
 
 
