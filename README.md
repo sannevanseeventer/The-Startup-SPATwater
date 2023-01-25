@@ -11,6 +11,11 @@
 </ul>
 
 <h3 id="#Opdrachtgever"> Opdrachtgever</h3>
+<br>
+SPATwater is een hydrologisch adviesbureau met de missie om met ruimtelijke, slimme data-analyses en een uitvoeringsgerichte aanpak de private ruimte in Nederland
+toekomstbestendig te maken.
+SPATwater bestaat uit een nieuwe generatie, enthousiaste hydrologen die met een technische achtergrond nèt wat anders kijken naar ruimtelijke opgaven. Grote ‘waterbommen’ zoals in Limburg zijn niet te voorspellen, dus hoe bereid je mensen en de omgeving waar ze wonen voor op deze klimaatrisico’s? SPATwater voert geen analyse uit zonder handelingsperspectief en kijkt op een creatieve manier naar praktische oplossingen.
+
 
 <h3 id="#Designchallenge"> Design challenge</h3>
         
