@@ -8,13 +8,13 @@
 <a href="#Gebruik> Gebruik website</a> 
 <a href="#Checklist> Checklist</a> 
 
-<h3 id="Opdrachtgever> Opdrachtgever</h3>
+<h3 id="#Opdrachtgever> Opdrachtgever</h3>
 
-<h3 id="Designchallenge> Design challenge</h3>
+<h3 id="#Designchallenge> Design challenge</h3>
         
-<h3 id="Gebruik> Gebruik website</h3>
+<h3 id="#Gebruik> Gebruik website</h3>
         
-<h3 id="Checklist> Checklist</h3>
+<h3 id="#Checklist>Checklist</h3>
         
 
 
