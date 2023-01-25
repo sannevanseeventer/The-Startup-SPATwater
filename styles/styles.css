@@ -869,12 +869,6 @@ p {
     }
 }
 
-@media screen and (min-width: 477px){
-    .krw__container{
-        height: 550px;
-    }
-    }
-
 
 @media screen and (min-width: 530px) {
 
@@ -1537,7 +1531,7 @@ p {
 
     /* ABOUT */
     .about__content {
-        padding: 3em 8em;
+        padding: 3em 12em;
     }
 
 
@@ -1548,7 +1542,7 @@ p {
     }
 
     .klimaat__content {
-        padding: 3em 8em;
+        padding: 3em 12em;
     }
 
     .accordion {
@@ -1582,6 +1576,7 @@ p {
         padding: 4em 10em;
     }
 }
+
 
 @media only screen and (min-width: 1024px) {
 
@@ -1654,9 +1649,6 @@ p {
     }
 
     /* ABOUT */
-    .about__content {
-        padding: 1em 20em;
-    }
 
     .about__content h2 {
         font-size: 1.9em;
@@ -1879,11 +1871,21 @@ p {
     }
 }
 
+@media only screen and (min-width: 1053px){
+.about__content {
+    padding: 3em 12em;
+}
+}
+
 @media screen and (min-width: 1113px){
     .krw__container{
         height: 500px;
     }
+    .about__content {
+        padding: 3em 15em;
     }
+    }
+    
 
 @media only screen and (min-width: 1180px) {
 
@@ -2286,7 +2288,44 @@ margin: 17em 0em 0.5em 1.4em;
    }
 
    .about__content{
-    padding: 2em 21em;
+    padding: 2em 22em;
 }
+
+.about__img img {
+    width: 400px;
+    margin-top: 24em;
+    margin-left: 40em;
 }
+
+
+.klimaat__content{
+    padding: 2em 22em;
+}
+
+.krw__content{
+    padding: 4em 22em;
+}
+
+.contact__content{
+        padding: 4em 24em;
+    }
+
+    .accordion {
+        padding-top: 2em;
+        padding-left: 21em;
+    }
+
+    .footer__container {
+        row-gap: 4rem;
+        background-color: white;
+    }
+
+    .footer__copy,
+    .footer__terms-link {
+        font-size: 1rem;
+    }
+} 
+
+
+
 
