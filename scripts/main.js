@@ -69,11 +69,46 @@ window.addEventListener('scroll', () => {
     // text.setAttribute('transform', `translate(0, ${lerped * 400})`)
     grond.setAttribute('transform', `translate(0, 0) matrix(1,0,0,1,1024.99,3697.78)`)
     // huisje.setAttribute('transform', `translate(0, ${lerped * 500}) matrix(-1.56706,0,0,1.59419,3205.5,1529.55)`)
+
+})
+
+
+
+// PARALLAX 2
+
+
+// const container2 = document.querySelector('section.hero')
+// const containerBox2 = container.getBoundingClientRect()
+
+// const city2 = document.querySelector('#city2')
+// const water2 = document.querySelector('#water2')
+// const bergje4_2 = document.querySelector('#bergje4_2')
+// const bergje3_2 = document.querySelector('#bergje3_2')
+// const bergje2_2 = document.querySelector('#bergje2_2')
+// // const text = document.querySelector('#herotext')
+// const grond2_2 = document.querySelector('#grond2')
+// // const huisje = document.querySelector('#huisje')
+
+
+
+// window.addEventListener('scroll', () => {
+//     let clamped = clamp(0, containerBox2.height, window.scrollY)
+//     let lerped = invlerp(0, containerBox2.height, clamped)
+//     console.log(lerped)
+
+//     city2.setAttribute('transform', `translate(0, ${lerped * 600}) matrix(1.00963,0,0,1,998.834,3465.8)`)
+//     water2.setAttribute('transform', `translate(0, ${lerped * 200}) matrix(1.0062,0,0,1,1011.15,3463.85)`)
+//     bergje4_2.setAttribute('transform', `translate(0, ${lerped * 200}) matrix(1.93766,0,0,1.85526,494.074,2854.49)`)
+//     bergje3_2.setAttribute('transform', `translate(${lerped * 900}, ${lerped * 200}) matrix(0.965133,0,0,1,1049.98,3425.34)`)
+//     bergje2_2.setAttribute('transform', `translate(${lerped * -300}, 0) matrix(1,0,0,1,13.0848,-1194.21)`)
+//     // text.setAttribute('transform', `translate(0, ${lerped * 400})`)
+//     grond2.setAttribute('transform', `translate(0, 0) matrix(1,0,0,1,1024.99,3697.78)`)
+//     // huisje.setAttribute('transform', `translate(0, ${lerped * 500}) matrix(-1.56706,0,0,1.59419,3205.5,1529.55)`)
    
     
 
 
-})
+// })
 
 /**
  * Yields a number clamped within a given spectrum. If you give it a number that
