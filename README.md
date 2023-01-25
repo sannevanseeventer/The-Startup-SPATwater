@@ -28,13 +28,13 @@ Ik heb bijna ales kunnen doen wat ik in mijn hoofd had. Alle illustraties heb ik
 <h3 id="#Kenmerken"> 📱 Kenmerken</h3>
 Dit project is gemaakt met HTML, CSS en JavaScript. Verder staat hieronder een korte lijst met gebruikte tools.
 
-<h2>Tools</h2>
+<h4>Tools</h4>
 <ul>
         <li> 🖥️ Visual Studio Code</li>
   <li>✍🏼 Affinity Designer 2</li>
 </ul>
 
-<h2>Gebruikte technieken</h2>
+<h4>Gebruikte technieken</h4>
 <ul>
 <li>📟 HTML</li>
         <li>🎨 CSS</li>
