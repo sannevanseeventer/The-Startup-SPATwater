@@ -3,10 +3,10 @@
 <img width="1029" alt="Schermafbeelding 2023-01-25 om 13 13 57" src="https://user-images.githubusercontent.com/112857444/214560755-365fafed-0537-4cd1-a9cf-ff3aadfd4ab1.png">
 
 <h3>Inhoudsopgave</h3>
-<a href="#Opdrachtgever> Opdrachtgever</a> 
-<a href="#Designchallenge> Design challenge</a> 
-<a href="#Gebruik> Gebruik website</a> 
-<a href="#Checklist> Checklist</a> 
+<a href="#Opdrachtgever> Opdrachtgever"</a> 
+<a href="#Designchallenge> Design challenge"</a> 
+<a href="#Gebruik> Gebruik website"</a> 
+<a href="#Checklist> Checklist"</a> 
 
 <h3 id="#Opdrachtgever> Opdrachtgever</h3>
 
