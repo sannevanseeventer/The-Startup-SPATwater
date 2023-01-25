@@ -1,7 +1,17 @@
-> _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
+<h2>Nieuwe website voor SPATwater</h2>
 
-# Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+<img width="1029" alt="Schermafbeelding 2023-01-25 om 13 13 57" src="https://user-images.githubusercontent.com/112857444/214560755-365fafed-0537-4cd1-a9cf-ff3aadfd4ab1.png">
+
+<h3> Inhoudsopgave </h3>
+<a href="#Opdrachtgever></a> 
+- Design challenge
+- Gebruik van de website
+- Checklist
+
+<h3> Opdrachtgever </h3>
+
+
+
 
 ## Beschrijving
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
