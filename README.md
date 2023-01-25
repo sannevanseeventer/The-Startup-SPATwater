@@ -4,13 +4,18 @@
 
 <h3> Inhoudsopgave </h3>
 <a href="#Opdrachtgever> Opdrachtgever</a> 
-- Design challenge
-- Gebruik van de website
-- Checklist
+<a href="#Designchallenge> Design challenge</a> 
+<a href="#Gebruik> Gebruik website</a> 
+<a href="#Checklist> Checklist</a> 
 
 <h3 id="Opdrachtgever> Opdrachtgever</h3>
 
-
+<h3 id="Designchallenge> Design challenge</h3>
+        
+<h3 id="Gebruik> Gebruik website</h3>
+        
+<h3 id="Checklist> Checklist</h3>
+        
 
 
 ## Beschrijving
