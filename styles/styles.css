@@ -1877,6 +1877,7 @@ p {
 }
 }
 
+    
 @media screen and (min-width: 1113px){
     .krw__container{
         height: 500px;
@@ -2313,6 +2314,98 @@ margin: 17em 0em 0.5em 1.4em;
     .accordion {
         padding-top: 2em;
         padding-left: 21em;
+    }
+
+    .footer__container {
+        row-gap: 4rem;
+        background-color: white;
+    }
+
+    .footer__copy,
+    .footer__terms-link {
+        font-size: 1rem;
+    }
+} 
+
+@media only screen and (min-width: 1450px){
+    /* HERO */
+    .parallax2{
+       padding-top: 1em;
+       display: block;
+   }
+
+   .hero__content {
+       padding-top: 12em;
+       padding-left: 12em;
+   }
+
+   .hero__heading {
+       font-size: 2.2em;
+   }
+
+   .hero__description {
+       font-size: 1.8em;
+   }
+
+   .hero__scroll a {
+       font-size: 1.2em;
+   }
+
+   .about__content{
+    padding: 2em 26em;
+}
+
+.about__img img {
+    width: 300px;
+    margin-top: 26em;
+    margin-left: 46em;
+}
+
+.about__button {
+    font-size: 1.1em;
+}
+
+.expertise{
+        padding: 0 20em 0 20em;
+    }
+
+    .expertise__wrapper {
+        gap: 1em;
+    }
+
+.klimaat__content{
+    padding: 2em 26em;
+}
+
+.krw__content{
+    padding: 4em 26em;
+}
+
+.contact__content{
+        padding: 4em 26em;
+    }
+
+    .accordion {
+        padding-top: 2em;
+        padding-left: 25em;
+        padding-right: 25em;
+    }
+
+    .contact__content h2 {
+        margin-bottom: 0.7em;
+        font-size: 2em;
+    }
+
+    .contact__content h3 {
+        font-size: 1.5em;
+    }
+
+    .contact__content h4 {
+        font-size: 1.2em;
+    }
+
+    .contact__content {
+        padding: 3em 26em;
     }
 
     .footer__container {
