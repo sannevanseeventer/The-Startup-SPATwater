@@ -100,12 +100,12 @@ a {
     background-repeat: no-repeat;
 } */
 
- svg .parallax1{
+svg .parallax1 {
     opacity: 0;
 }
 
-.parallax2{
-    display:none;
+.parallax2 {
+    display: none;
 }
 
 .hero__container {
@@ -437,7 +437,63 @@ span p {
 }
 
 .accordion li.open .answer {
-    max-height: 25em;
+    max-height: 150em;
+}
+
+.amstelveen {
+    color: var(--spat);
+    margin-top: 3em;
+    text-align: left;
+}
+
+.quote {
+    margin-top: 1em;
+    color: var(--spat);
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.client {
+    color: var(--darkblue);
+    font-weight: 400;
+    font-size: 0.8em;
+    text-align: center;
+    margin-top: 0.5em;
+    margin-bottom: 5em;
+}
+
+li {
+    list-style-type: none;
+}
+
+/*=============== VIDEO ===============*/
+.video__container {
+    padding-bottom: 1rem;
+}
+
+.video__description {
+    text-align: center;
+    margin-bottom: var(--mb-2-5);
+}
+
+.video__content {
+    position: relative;
+}
+
+.video__button {
+    position: absolute;
+    right: 1rem;
+    bottom: -1rem;
+    padding: 1rem 1.5rem;
+}
+
+.video__button-icon {
+    font-size: 1.2rem;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
 }
 
 /* WATERKWALITEIT */
@@ -630,7 +686,7 @@ p {
 
 /* TEAM */
 
-.team2{
+.team2 {
     display: none;
 }
 
@@ -642,9 +698,9 @@ p {
 }
 
 .discover__container {
-        padding: 2em 4em 2em 4em;
-        overflow: hidden;
-    }
+    padding: 2em 4em 2em 4em;
+    overflow: hidden;
+}
 
 .discover__card {
     position: relative;
@@ -824,7 +880,7 @@ p {
     .krw__content {
         padding: 3em 2em;
     }
-    
+
     .klimaat__container {
         height: 550px;
     }
@@ -849,7 +905,7 @@ p {
     .krw__container {
         height: 600px;
     }
-    
+
 
     .contact__content h2 {
         margin-bottom: 0.7em;
@@ -872,12 +928,12 @@ p {
 
 @media screen and (min-width: 530px) {
 
-     /* HERO */
-     .parallax1{
+    /* HERO */
+    .parallax1 {
         display: none;
-     }
+    }
 
-     .parallax2{
+    .parallax2 {
         padding-top: 15em;
         display: block;
     }
@@ -912,7 +968,7 @@ p {
     .krw__container {
         height: 500px;
     }
-    
+
     .portfolio__container {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -954,11 +1010,11 @@ p {
     .team {
         padding-bottom: 2em;
     }
-    
+
     .discover__container {
-            padding: 2em 4em 3em 4em;
-        }
-    
+        padding: 2em 4em 3em 4em;
+    }
+
 
     .contact__content {
         padding: 3em 4em;
@@ -1021,8 +1077,8 @@ p {
 
     /* EXPERTISE */
 
-    .expertise{
-    height: 800px;
+    .expertise {
+        height: 800px;
     }
 
     .expertise__title {
@@ -1207,7 +1263,7 @@ p {
         display: none;
     }
 
-    .parallax2{
+    .parallax2 {
         padding-top: 7em;
         display: block;
     }
@@ -1420,7 +1476,7 @@ p {
     }
 
     .contact__content br {
-        display:none;
+        display: none;
     }
 
 
@@ -1445,14 +1501,14 @@ p {
 
 @media screen and (min-width: 820px) {
 
-     /* HERO */
+    /* HERO */
 
-     .parallax2{
+    .parallax2 {
         padding-top: 8em;
         display: block;
     }
 
-     .hero__content {
+    .hero__content {
         padding-top: 10em;
         padding-left: 6em;
     }
@@ -1518,12 +1574,12 @@ p {
 
 @media screen and (min-width: 920px) {
 
-    .parallax2{
+    .parallax2 {
         padding-top: 8em;
         display: block;
     }
 
-     .hero__content {
+    .hero__content {
         padding-top: 10em;
         padding-left: 6em;
     }
@@ -1555,8 +1611,8 @@ p {
         padding: 4em 7em 0em 7em;
     }
 
-       /* GEMEENTE */
-       .accordion {
+    /* GEMEENTE */
+    .accordion {
         padding: 2em 7em;
     }
 
@@ -1626,7 +1682,7 @@ p {
 
     /* HERO */
 
-    .parallax2{
+    .parallax2 {
         padding-top: 8em;
         display: block;
     }
@@ -1675,7 +1731,7 @@ p {
 
 
     /* EXPERTISE */
-    .expertise{
+    .expertise {
         padding: 0 6em 0 8em;
     }
 
@@ -1745,7 +1801,7 @@ p {
     }
 
     /* WATERKWALITEIT */
-    .krw__content{
+    .krw__content {
         padding: 4em 13em;
     }
 
@@ -1871,28 +1927,29 @@ p {
     }
 }
 
-@media only screen and (min-width: 1053px){
-.about__content {
-    padding: 3em 12em;
-}
+@media only screen and (min-width: 1053px) {
+    .about__content {
+        padding: 3em 12em;
+    }
 }
 
-    
-@media screen and (min-width: 1113px){
-    .krw__container{
+
+@media screen and (min-width: 1113px) {
+    .krw__container {
         height: 500px;
     }
+
     .about__content {
         padding: 3em 15em;
     }
-    }
-    
+}
+
 
 @media only screen and (min-width: 1180px) {
 
 
     /* HERO */
-    .parallax2{
+    .parallax2 {
         padding-top: 8em;
         display: block;
     }
@@ -1916,7 +1973,7 @@ p {
 
     /* ABOUT */
 
-    .about__content{
+    .about__content {
         padding: 2em 18em;
     }
 
@@ -1948,7 +2005,7 @@ p {
     }
 
     /* EXPERTISE */
-    .expertise{
+    .expertise {
         padding: 0 16em 0 16em;
     }
 
@@ -1972,7 +2029,7 @@ p {
 
     /* KLIMAATADAPTATIE */
 
-.klimaat__content{
+    .klimaat__content {
         padding: 2em 18em;
     }
 
@@ -1989,7 +2046,7 @@ p {
     }
 
     .klimaat__content ul li {
-        font-size:1em;
+        font-size: 1em;
         line-height: 2em;
         text-align: left;
     }
@@ -2007,37 +2064,37 @@ p {
     }
 
     .answer p {
-        font-size: 1em;    
+        font-size: 1em;
     }
 
     /* WATERKWALITEIT */
 
 
-    .krw__container{
-    height: 570px;
+    .krw__container {
+        height: 570px;
     }
-    
-.krw__content{
-    padding: 4em 18em;
-}
 
-.krw__content h2 {
-    font-size: 2em;
-}
+    .krw__content {
+        padding: 4em 18em;
+    }
 
-.krw__content h3 {
-    font-size: 1.1em;
-}
+    .krw__content h2 {
+        font-size: 2em;
+    }
 
-.krw__content p {
-    font-size: 1em;
-}
+    .krw__content h3 {
+        font-size: 1.1em;
+    }
 
-.krw__content ul li {
-    font-size:1em;
-    line-height: 2em;
-    text-align: left;
-}
+    .krw__content p {
+        font-size: 1em;
+    }
+
+    .krw__content ul li {
+        font-size: 1em;
+        line-height: 2em;
+        text-align: left;
+    }
 
     /* PROJECTEN */
 
@@ -2090,113 +2147,113 @@ p {
 
     /* TEAM */
 
-    .team{
+    .team {
         display: none;
     }
 
-.team2 {
-    position: relative;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    padding: 2em 2em;
-    height: 800px;
-}
+    .team2 {
+        position: relative;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        padding: 2em 2em;
+        height: 800px;
+    }
 
-.team2__title {
-    font-size: 2rem;
-    color: var(--spat);
-    font-weight: 600;
-    text-align: center;
-    padding-top: 2em;
-}
+    .team2__title {
+        font-size: 2rem;
+        color: var(--spat);
+        font-weight: 600;
+        text-align: center;
+        padding-top: 2em;
+    }
 
-.team2__wrapper {
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: 1fr;
-    gap: 3rem;
-    padding-top: 6em;
-    margin: 0 auto;
-    width:L 100%;
-}
-
-
-.team2__mees {
-    background-image: url(../assets/Mees1_fullscreen.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    border-radius: 10px;
-    width: 300px;
-    height: 350px;
-
-}
-
-.team2__jesse {
-    background-image: url(../assets/Jesse1_fullscreen.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    border-radius: 10px;
-    width: 300px;
-    height: 350px;
-}
-
-.team2__timo {
-    background-image: url(../assets/Timo1_fullscreen.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    border-radius: 10px;
-    width: 300px;
-    height: 350px;
-}
-
-.name{
-    font-size: 1.5rem;
-    display: block;
-    color: white;
-}
-
-.mail{
-    font-size: 1rem;
-    display: block;
-    color: white;
-}
-
-.personal__information{
-margin: 17em 0em 0.5em 1.4em;
-}
+    .team2__wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+        gap: 3rem;
+        padding-top: 6em;
+        margin: 0 auto;
+        width: L 100%;
+    }
 
 
-.team2__mees:hover {
-    background-image: url(../assets/Mees2_fullscreen.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    border-radius: 10px;
-    cursor: pointer;
-    width: 300px;
-    height: 350px;
-}
+    .team2__mees {
+        background-image: url(../assets/Mees1_fullscreen.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        width: 300px;
+        height: 350px;
+
+    }
+
+    .team2__jesse {
+        background-image: url(../assets/Jesse1_fullscreen.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        width: 300px;
+        height: 350px;
+    }
+
+    .team2__timo {
+        background-image: url(../assets/Timo1_fullscreen.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        width: 300px;
+        height: 350px;
+    }
+
+    .name {
+        font-size: 1.5rem;
+        display: block;
+        color: white;
+    }
+
+    .mail {
+        font-size: 1rem;
+        display: block;
+        color: white;
+    }
+
+    .personal__information {
+        margin: 17em 0em 0.5em 1.4em;
+    }
 
 
-.team2__timo:hover {
-    background-image: url(../assets/Timo2_fullscreen.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    border-radius: 10px;
-    cursor: pointer;
-    width: 300px;
-    height: 350px;
-}
+    .team2__mees:hover {
+        background-image: url(../assets/Mees2_fullscreen.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        cursor: pointer;
+        width: 300px;
+        height: 350px;
+    }
 
-.team2__jesse:hover {
-    background-image: url(../assets/Jesse2_fullscreen.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    border-radius: 10px;
-    cursor: pointer;
-    width: 300px;
-    height: 350px;
-}
+
+    .team2__timo:hover {
+        background-image: url(../assets/Timo2_fullscreen.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        cursor: pointer;
+        width: 300px;
+        height: 350px;
+    }
+
+    .team2__jesse:hover {
+        background-image: url(../assets/Jesse2_fullscreen.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        cursor: pointer;
+        width: 300px;
+        height: 350px;
+    }
 
 
     /* CONTACT */
@@ -2238,9 +2295,10 @@ margin: 17em 0em 0.5em 1.4em;
 }
 
 
-@media only screen and (min-width: 1300px){
-     /* HERO */
-     .parallax2{
+@media only screen and (min-width: 1300px) {
+
+    /* HERO */
+    .parallax2 {
         padding-top: 3em;
         display: block;
     }
@@ -2264,50 +2322,51 @@ margin: 17em 0em 0.5em 1.4em;
 
 }
 
-@media only screen and (min-width: 1400px){
+@media only screen and (min-width: 1400px) {
+
     /* HERO */
-    .parallax2{
-       padding-top: 1em;
-       display: block;
-   }
+    .parallax2 {
+        padding-top: 1em;
+        display: block;
+    }
 
-   .hero__content {
-       padding-top: 12em;
-       padding-left: 10em;
-   }
+    .hero__content {
+        padding-top: 12em;
+        padding-left: 10em;
+    }
 
-   .hero__heading {
-       font-size: 2.3em;
-   }
+    .hero__heading {
+        font-size: 2.3em;
+    }
 
-   .hero__description {
-       font-size: 1.8em;
-   }
+    .hero__description {
+        font-size: 1.8em;
+    }
 
-   .hero__scroll a {
-       font-size: 1.4em;
-   }
+    .hero__scroll a {
+        font-size: 1.4em;
+    }
 
-   .about__content{
-    padding: 2em 22em;
-}
+    .about__content {
+        padding: 2em 22em;
+    }
 
-.about__img img {
-    width: 400px;
-    margin-top: 24em;
-    margin-left: 40em;
-}
+    .about__img img {
+        width: 400px;
+        margin-top: 24em;
+        margin-left: 40em;
+    }
 
 
-.klimaat__content{
-    padding: 2em 22em;
-}
+    .klimaat__content {
+        padding: 2em 22em;
+    }
 
-.krw__content{
-    padding: 4em 22em;
-}
+    .krw__content {
+        padding: 4em 22em;
+    }
 
-.contact__content{
+    .contact__content {
         padding: 4em 24em;
     }
 
@@ -2325,47 +2384,48 @@ margin: 17em 0em 0.5em 1.4em;
     .footer__terms-link {
         font-size: 1rem;
     }
-} 
+}
 
-@media only screen and (min-width: 1450px){
+@media only screen and (min-width: 1450px) {
+
     /* HERO */
-    .parallax2{
-       padding-top: 1em;
-       display: block;
-   }
+    .parallax2 {
+        padding-top: 1em;
+        display: block;
+    }
 
-   .hero__content {
-       padding-top: 12em;
-       padding-left: 12em;
-   }
+    .hero__content {
+        padding-top: 12em;
+        padding-left: 12em;
+    }
 
-   .hero__heading {
-       font-size: 2.2em;
-   }
+    .hero__heading {
+        font-size: 2.2em;
+    }
 
-   .hero__description {
-       font-size: 1.8em;
-   }
+    .hero__description {
+        font-size: 1.8em;
+    }
 
-   .hero__scroll a {
-       font-size: 1.2em;
-   }
+    .hero__scroll a {
+        font-size: 1.2em;
+    }
 
-   .about__content{
-    padding: 2em 26em;
-}
+    .about__content {
+        padding: 2em 26em;
+    }
 
-.about__img img {
-    width: 300px;
-    margin-top: 26em;
-    margin-left: 46em;
-}
+    .about__img img {
+        width: 300px;
+        margin-top: 26em;
+        margin-left: 46em;
+    }
 
-.about__button {
-    font-size: 1.1em;
-}
+    .about__button {
+        font-size: 1.1em;
+    }
 
-.expertise{
+    .expertise {
         padding: 0 20em 0 20em;
     }
 
@@ -2373,15 +2433,15 @@ margin: 17em 0em 0.5em 1.4em;
         gap: 1em;
     }
 
-.klimaat__content{
-    padding: 2em 26em;
-}
+    .klimaat__content {
+        padding: 2em 26em;
+    }
 
-.krw__content{
-    padding: 4em 26em;
-}
+    .krw__content {
+        padding: 4em 26em;
+    }
 
-.contact__content{
+    .contact__content {
         padding: 4em 26em;
     }
 
@@ -2417,8 +2477,4 @@ margin: 17em 0em 0.5em 1.4em;
     .footer__terms-link {
         font-size: 1rem;
     }
-} 
-
-
-
-
+}
