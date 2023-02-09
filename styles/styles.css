@@ -21,6 +21,11 @@ body {
     background-color: var(--lg-bg);
 }
 
+.main {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
 /* NAV */
 .nav__container {
     max-width: 100vw;
@@ -55,7 +60,7 @@ a {
     box-shadow: 0 1px 7px 0 rgba(0, 0, 0, .1);
     position: fixed;
     width: 100%;
-    z-index: 999;
+    z-index: 100;
 }
 
 .flex-nav {
@@ -99,14 +104,14 @@ a {
     background-size: cover;
     background-repeat: no-repeat;
 } */
-
+/* 
 svg .parallax1 {
     opacity: 0;
 }
 
 .parallax2 {
     display: none;
-}
+} */
 
 .hero__container {
     align-items: center;
@@ -115,8 +120,6 @@ svg .parallax1 {
 }
 
 .hero__content {
-    position: absolute;
-    padding-top: 8em;
     padding-left: 2.5em;
 }
 
@@ -155,6 +158,7 @@ svg .parallax1 {
 /* OVER ONS */
 
 .about {
+    position: relative;
     background-color: var(--lg-bg);
 }
 
@@ -218,6 +222,7 @@ svg .parallax1 {
 
 /* EXPERTISE */
 .expertise {
+    position: relative;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -307,6 +312,7 @@ svg .parallax1 {
 /* KLIMAATADAPTATIE */
 
 .klimaat {
+    position: relative;
     background-color: var(--lg-bg);
 }
 
@@ -488,7 +494,7 @@ li {
 }
 
 .video__button-icon {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 video {
@@ -496,9 +502,30 @@ video {
     height: auto;
 }
 
+/* PARALLAX TEST */
+
+.parallax {
+    margin-top: 6em;
+    position: relative;
+    height: 50em;
+}
+
+#text {
+    position: absolute;
+}
+
+.parallax img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+}
+
 /* WATERKWALITEIT */
 
 .krw {
+    position: relative;
     background-color: white;
 }
 
@@ -577,6 +604,7 @@ img {
 }
 
 .portfolio {
+    position: relative;
     background-color: var(--lg-bg);
     width: 100vw;
     height: auto;
@@ -691,6 +719,7 @@ p {
 }
 
 .team {
+    position: relative;
     background-color: white;
     height: auto;
     padding-top: 1em;
@@ -752,6 +781,7 @@ p {
 
 /* CONTACT */
 .contact {
+    position: relative;
     background-color: var(--lg-bg);
 }
 
@@ -794,6 +824,7 @@ p {
     font-weight: 500;
     margin-bottom: 1em;
 }
+
 
 /* SPONSORS */
 .sponsor__container {
@@ -929,14 +960,14 @@ p {
 @media screen and (min-width: 530px) {
 
     /* HERO */
-    .parallax1 {
+    /* .parallax1 {
         display: none;
     }
 
     .parallax2 {
         padding-top: 15em;
         display: block;
-    }
+    } */
 
     .hero__content {
         padding-top: 9em;
@@ -1020,6 +1051,14 @@ p {
         padding: 3em 4em;
     }
 
+
+    .footer__content {
+        grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+        row-gap: 2.5rem;
+        column-gap: 1.5em;
+        padding: 0 1em 0 1em;
+
+    }
 }
 
 
